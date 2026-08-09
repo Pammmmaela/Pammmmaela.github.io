@@ -66,8 +66,7 @@ a {
     transition: 1s;
 }
 
-/* id */
-#middleDiv {
+.middleDiv {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -77,11 +76,23 @@ a {
     width: 80%;
 }
 
-#sideDiv {
+.sideDiv {
     height: 100%;
     width: 10%;
 }
 
+/* id */
 #dateTime {
     font-size: 15px;
+}
+
+#firstDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+
+    height: 100%;
+    width: 80%;
 }

@@ -1,11 +1,8 @@
-let bgm = document.getElementById("BGM");
-
-document.addEventListener("DOMContentLoaded", () => {
-    console.log("The HTML is fully loaded and ready!");
+window.addEventListener("load", () => {
     document.getElementById("dateTime").innerHTML = Date();
-    playBGM();
 });
 
-function playBGM() {
+document.addEventListener("click", () => {
+    const bgm = document.getElementById("BGM");
     bgm.play();
-}
+}, {once: true});

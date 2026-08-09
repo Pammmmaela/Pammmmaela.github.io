@@ -18,23 +18,32 @@
     <title>Chill Introductory Page</title>
 </head>
 <body>
-    <audio src="assets/Slumber of the Galaxy by Maniira.mp3" autoplay id="BGM"></audio>
+    <audio src="assets/Slumber of the Galaxy by Maniira.mp3" autoplay loop controls id="BGM"></audio>
 
-    <div id="sideDiv"></div>
+    <div class="sideDiv"></div>
 
-    <div id="middleDiv">
-        <section>
-            <p>Chill here, or read while being comforted by the soothing background.</p>
-        </section>
-        
-        <div style="display: flex; flex-direction: row; align-items: center; justify-content: center; gap: 50px;">
-            <a href="information.html"><p class="pButton">Information</p></a>
-            <p class="pButton">Aspirations</p>
-            <p class="pButton">Inspirations</p>
+    <main style="display: flex; flex-direction: column; align-items: end; justify-content: right; ">
+        <!-- first to see/title -->
+         <div>
+            <p>What led you here?</p>
+            <p class="pButton">I'm curious about you.</p>
+         </div>
+
+        <!-- inside -->
+        <div class="middleDiv">
+            <section>
+                <p>Chill here, or read while being comforted by the soothing background.</p>
+            </section>
+            
+            <div style="display: flex; flex-direction: row; align-items: center; justify-content: center; gap: 50px;">
+                <a href="information.html"><p class="pButton">Information</p></a>
+                <p class="pButton">Aspirations</p>
+                <p class="pButton">Inspirations</p>
+            </div>
         </div>
-    </div>
+    </main>
 
-    <div id="sideDiv" style="display: flex; flex-direction: column; align-items: end; justify-content: right;">
+    <div class="sideDiv" style="display: flex; flex-direction: column; align-items: end; justify-content: right;">
         <p id="dateTime"></p>
     </div>
 </body>
