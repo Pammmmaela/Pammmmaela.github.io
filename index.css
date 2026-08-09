@@ -79,7 +79,7 @@ a {
     width: 10%;
 }
 
-#buble {
+.buble {
     position: absolute;
     z-index: -99;
 

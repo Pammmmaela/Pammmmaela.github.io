@@ -1,12 +1,11 @@
 let startButton = document.getElementById("startButton");
 let firstDiv = document.getElementById("firstDiv");
 let insideDiv = document.getElementById("insideDiv");
-let bubbleImg = document.getElementById("buble");
 
 window.addEventListener("load", () => {
     document.getElementById("dateTime").innerHTML = Date();
-
-    bubbleImg.style.top = "-6%";
+    console.log("2000 timer should start after this");
+    setInterval(makeBubble, 2000);
 });
 
 document.addEventListener("click", () => {
@@ -22,15 +21,6 @@ startButton.addEventListener("click", () => {
     insideDiv.style.zIndex = 1;
 })
 
-// constant for loop in background
-// randomize x
-// store in let tempoX var
-// bubleNew = createElement("img")
-// bubleNew.style.top = 94%
-// bubleNew.style.left = tempoX
-// TIYAKA MGA IBA PANG PROPERTIES LIEK OPACITY 
-// transition top 94% to -6% ease
-
 function makeBubble() {
     let temporaryX = Math.floor(Math.random() * 1100);
     let bubleNew = document.createElement("img");
@@ -44,6 +34,12 @@ function makeBubble() {
     bubleNew.style.opacity = 0.25;
     bubleNew.style.left = temporaryX;
     bubleNew.style.top = "94%";
+
+    document.body.appendChild(bubleNew);
+
+    bubleNew.style.top = "-6%";
+
+    setTimeout(bubleNew.remove(), 11000);
 }
 
 /* 1100px 94% */
