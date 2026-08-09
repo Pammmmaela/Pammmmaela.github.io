@@ -79,7 +79,7 @@ a {
     width: 10%;
 }
 
-.buble {
+#buble {
     position: absolute;
     z-index: -99;
 
@@ -88,8 +88,10 @@ a {
 
     opacity: 0.25;
 
-    left: 0px;
+    left: 1100px;
     top: 94%;
+
+    transition: left 10s linear, top 10s linear;
 }
 
 /* id */
