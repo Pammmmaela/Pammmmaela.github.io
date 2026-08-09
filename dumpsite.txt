@@ -11,16 +11,3 @@
 <section>
 <summary>
 <time>
-
-let vid = document.getElementById("myVideo");
-
-function playVid() {
-    vid.play();
-}
-
-function pauseVid() {
-    vid.pause();
-}
-
-
-https://www.pexels.com/video/marine-life-inside-the-aquarium-7047222/

@@ -1,11 +1,11 @@
-let vid = document.getElementById("myVideo");
+let bgm = document.getElementById("BGM");
 
-function playVid() {
-    vid.play();
+document.addEventListener("DOMContentLoaded", () => {
+    console.log("The HTML is fully loaded and ready!");
+    document.getElementById("dateTime").innerHTML = Date();
+    playBGM();
+});
+
+function playBGM() {
+    bgm.play();
 }
-
-function pauseVid() {
-    vid.pause();
-}
-
-playVid();
