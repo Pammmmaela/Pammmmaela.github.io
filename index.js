@@ -2,6 +2,9 @@ let startButton = document.getElementById("startButton");
 let firstDiv = document.getElementById("firstDiv");
 let insideDiv = document.getElementById("insideDiv");
 
+const startSFX = document.getElementById("SFX");
+const bgm = document.getElementById("BGM");
+
 window.addEventListener("load", () => {
     document.getElementById("dateTime").innerHTML = Date();
     console.log("2000 timer should start after this");
@@ -9,7 +12,6 @@ window.addEventListener("load", () => {
 });
 
 document.addEventListener("click", () => {
-    const bgm = document.getElementById("BGM");
     bgm.play();
 });
 
@@ -19,6 +21,8 @@ startButton.addEventListener("click", () => {
 
     firstDiv.style.zIndex = 0;
     insideDiv.style.zIndex = 1;
+
+    startSFX.play();
 })
 
 function makeBubble() {
@@ -41,6 +45,8 @@ function makeBubble() {
 
     setTimeout(bubleNew.remove(), 11000);
 }
+
+
 
 /* 1100px 94% */
 /* 0px -6% */
