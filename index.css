@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Geomini", sans-serif;
+    flex-direction: column;
+
+    height: 100vh;
+    background-image: linear-gradient(#0b2227, black); 
+    color:rgb(0, 214, 252);
+    padding: 10px;
+
+    font-size: 25px;
+}
+
+/* aside {
+    height: 100%;
+    width: 25%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Geomini", sans-serif;
+    flex-direction: column;
+} */
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Geomini", sans-serif;
+    flex-direction: column;
+
+    gap: 10px;
+    padding: 10px;
+
+    p {
+        color:rgb(0, 214, 252);
+        font-size: 50px;
+    }
+}
+
+/* classes */
+
+.pButton {
+    background-color: rgb(4, 39, 51);
+    /* border: #0a5edd 2px solid; */
+    border-radius: 5px;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    font-family: "Dancing Script", cursive;
+
+    font-size: 30px;
+}
+
+.pButton:hover {
+    background-color: rgb(0, 214, 252);
+    color: rgb(4, 39, 51);
+    cursor: pointer;
+    transition: 1s;
+}
