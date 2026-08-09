@@ -1,4 +1,6 @@
 body {
+    position: relative;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -75,6 +77,19 @@ a {
 .sideDiv {
     height: 100%;
     width: 10%;
+}
+
+.buble {
+    position: absolute;
+    z-index: -99;
+
+    height: 50px;
+    width: 50px;
+
+    opacity: 0.25;
+
+    left: 0px;
+    top: 94%;
 }
 
 /* id */
