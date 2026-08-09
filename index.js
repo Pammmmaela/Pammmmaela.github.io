@@ -9,7 +9,7 @@ window.addEventListener("load", () => {
 document.addEventListener("click", () => {
     const bgm = document.getElementById("BGM");
     bgm.play();
-}, {once: true});
+});
 
 startButton.addEventListener("click", () => {
     firstDiv.classList.add("hidden");
@@ -18,3 +18,12 @@ startButton.addEventListener("click", () => {
     firstDiv.style.zIndex = 0;
     insideDiv.style.zIndex = 1;
 })
+
+// constant for loop in background
+// randomize x
+// store in let tempoX var
+// bubleNew = createElement("img")
+// bubleNew.style.top = 94%
+// bubleNew.style.left = tempoX
+// TIYAKA MGA IBA PANG PROPERTIES LIEK OPACITY 
+// transition top 94% to -6% ease
