@@ -10,12 +10,16 @@ If you like it, it will be much appreciated if you can rate this website project
 
 ## New Additions! <sup>(Yippie!!!!)</sup>
 Added SFX for start button
+
 Added BGM upon start button
+
 Added paragraph-tag buttons for navigation.
+
 Added date and time display when the page was accessed.
 
 ## Challenges :<
 Trying to add moving multiple bubbles is a difficult challenge.
+
 Trying to add multiple meaningful pages (at least three).
+
 Trying to add SFX for start button.
-To be continued tomorrow.
