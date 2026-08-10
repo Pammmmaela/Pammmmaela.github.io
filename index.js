@@ -4,11 +4,12 @@ let insideDiv = document.getElementById("insideDiv");
 
 const startSFX = document.getElementById("SFX");
 const bgm = document.getElementById("BGM");
+const hoverpbutton = document.getElementById("hoverPButton");
+
+let makeBubbleEvent;
 
 window.addEventListener("load", () => {
     document.getElementById("dateTime").innerHTML = Date();
-    console.log("2000 timer should start after this");
-    setInterval(makeBubble, 2000);
 });
 
 document.addEventListener("click", () => {
@@ -16,6 +17,12 @@ document.addEventListener("click", () => {
 });
 
 startButton.addEventListener("click", () => {
+    if(!makeBubbleEvent) {
+        makeBubbleEvent = setInterval(() => {
+            makeBubble();
+        }, 1000);
+    }
+
     firstDiv.classList.add("hidden");
     insideDiv.classList.add("visible");
 
@@ -23,10 +30,25 @@ startButton.addEventListener("click", () => {
     insideDiv.style.zIndex = 1;
 
     startSFX.play();
+
+    // let pButtons = document.getElementsByClassName("pButton");
+
+    // pButtons.forEach((element) => {
+    //     element.addEventListener("mouseenter", (event) => {
+    //         hoverpbutton.play();
+    //         console.log("You hovered on me!");
+    //     })
+
+    //     element.addEventListener("mouseleave", (event) => {
+    //         hoverpbutton.play();
+    //         console.log("You unhovered on me!");
+    //     })
+    // });
 })
 
 function makeBubble() {
     let temporaryX = Math.floor(Math.random() * 1100);
+    console.log(temporaryX);
     let bubleNew = document.createElement("img");
 
     bubleNew.setAttribute("src", "assets/sud.png");
@@ -36,17 +58,20 @@ function makeBubble() {
     bubleNew.style.height = "50px";
     bubleNew.style.width = "50px";
     bubleNew.style.opacity = 0.25;
-    bubleNew.style.left = temporaryX;
+    bubleNew.style.left = temporaryX + "px";
     bubleNew.style.top = "94%";
 
     document.body.appendChild(bubleNew);
 
-    bubleNew.style.top = "-6%";
+    requestAnimationFrame(() => {
+        bubleNew.style.transition = "left 10s linear, top 10s linear";
+        bubleNew.style.top = "-6%";
+    });
 
-    setTimeout(bubleNew.remove(), 11000);
+    setTimeout(() => {
+        bubleNew.remove();
+    }, 11000);
 }
-
-
 
 /* 1100px 94% */
 /* 0px -6% */

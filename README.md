@@ -9,17 +9,12 @@ The theme of the website is inspired by my affinity to blue colours. Mixed with 
 If you like it, it will be much appreciated if you can rate this website project on Hack Club's [Stardance](https://stardance.hackclub.com/). A non-profit program open for ages 13-18 who would like to showcase their projects, whether software or hardware, or both! Oh wait, my project's link is [this](https://stardance.hackclub.com/projects/44205). Thank you!!! :DDD
 
 ## New Additions! <sup>(Yippie!!!!)</sup>
-Added SFX for start button
-
-Added BGM upon start button
-
-Added paragraph-tag buttons for navigation.
-
-Added date and time display when the page was accessed.
+Added SFX for start button 🔊\
+Added BGM upon start button 🎧\
+Added paragraph-tag buttons for navigation 🧭\
+Added date and time display when the page was accessed 🕧\
+Added bubbles/air pockets for a deep-sea effect! 🫧\
 
 ## Challenges :<
-Trying to add moving multiple bubbles is a difficult challenge.
-
-Trying to add multiple meaningful pages (at least three).
-
-Trying to add SFX for start button.
+Trying to add multiple meaningful pages (at least three) 😁\
+Trying to add SFX for the three button pages 🎶\

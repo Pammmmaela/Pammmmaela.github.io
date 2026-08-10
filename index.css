@@ -79,21 +79,6 @@ a {
     width: 10%;
 }
 
-.buble {
-    position: absolute;
-    z-index: -99;
-
-    height: 50px;
-    width: 50px;
-
-    opacity: 0.25;
-
-    left: 1100px;
-    top: 94%;
-
-    transition: left 10s linear, top 10s linear;
-}
-
 /* id */
 #dateTime {
     font-size: 15px;
