@@ -1,6 +1,6 @@
 # A very chill introductory page!
 
-<img src="FINALfrontpage.png" style="height: 40vh; width: 20vw;">
+<img src="assets/FINALfrontpage.png" style="height: 30vh; width: 20vw;">
 
 ## Some background information... :>
 Hello! My username is [@Pammmmaela](https://github.com/Pammmmaela). You can call me **Pam**!
@@ -16,7 +16,7 @@ Added BGM upon start button 🎧\
 Added paragraph-tag buttons for navigation 🧭\
 Added date and time display when the page was accessed 🕧\
 Added bubbles/air pockets for a deep-sea effect! 🫧\
-3/3 pages done! 🌐\
+3/3 pages done! 🌐
 
 ## Challenges :<
-All complete!
+All complete! :d
