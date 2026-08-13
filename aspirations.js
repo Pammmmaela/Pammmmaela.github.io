@@ -21,7 +21,7 @@ function makeBubble() {
     console.log(temporaryX);
     let bubleNew = document.createElement("img");
 
-    bubleNew.setAttribute("src", "sud.png");
+    bubleNew.setAttribute("src", "assets/sud.png");
 
     bubleNew.style.position = "absolute";
     bubleNew.style.zIndex = -99;
