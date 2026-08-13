@@ -20,3 +20,8 @@ Added bubbles/air pockets for a deep-sea effect! 🫧\
 
 ## Challenges :<
 All complete! :d
+
+## AI-assisted parts
+<ul>Fade animation from start screen to "chill area" screen. </ul>
+<ul>JavaScript moving bubbles.</ul>
+<ul>Definition and/or usage of ".classList", "requestAnimationFrame()", "setInterval" and "setTimeout"</ul>
