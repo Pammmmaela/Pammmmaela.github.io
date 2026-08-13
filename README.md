@@ -1,6 +1,6 @@
 # A very chill introductory page!
 
-<img src="assets/FINALfrontpage.png" style="height: 30vh; width: 20vw;">
+<img src="assets/FINALfrontpage.png" style="height: 23vh; width: 20vw;">
 
 ## Some background information... :>
 Hello! My username is [@Pammmmaela](https://github.com/Pammmmaela). You can call me **Pam**!
