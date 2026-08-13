@@ -5,11 +5,21 @@ let insideDiv = document.getElementById("insideDiv");
 const startSFX = document.getElementById("SFX");
 const bgm = document.getElementById("BGM");
 const hoverpbutton = document.getElementById("hoverPButton");
+const clickpbutton = document.getElementById("clickPButton");
 
 let makeBubbleEvent;
 
 window.addEventListener("load", () => {
     document.getElementById("dateTime").innerHTML = Date();
+
+    let pButtons = document.getElementsByClassName("pButton");
+
+    pButtons.forEach((element) => {
+        element.addEventListener("click", () => {
+            clickpbutton.play();
+            console.log("You clicked me!");
+        })
+    });
 });
 
 document.addEventListener("click", () => {
@@ -30,20 +40,6 @@ startButton.addEventListener("click", () => {
     insideDiv.style.zIndex = 1;
 
     startSFX.play();
-
-    // let pButtons = document.getElementsByClassName("pButton");
-
-    // pButtons.forEach((element) => {
-    //     element.addEventListener("mouseenter", (event) => {
-    //         hoverpbutton.play();
-    //         console.log("You hovered on me!");
-    //     })
-
-    //     element.addEventListener("mouseleave", (event) => {
-    //         hoverpbutton.play();
-    //         console.log("You unhovered on me!");
-    //     })
-    // });
 })
 
 function makeBubble() {

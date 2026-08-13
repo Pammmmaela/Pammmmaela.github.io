@@ -1,8 +1,10 @@
 # A very chill introductory page!
 
+<img src="FINALfrontpage.png" style="height: 40vh; width: 20vw;">
+
 ## Some background information... :>
 Hello! My username is [@Pammmmaela](https://github.com/Pammmmaela). You can call me **Pam**!
-This is a website that is hosted by GitHub's Pages, an easy and wallet-friendly way to let people try your website without pulling from its original source code. In this website, you can chill and listen to the looping music, or choose to click any of the three buttons to know more about me! 🎶🎵🎧
+This is a website that is hosted by GitHub's Pages, an easy and wallet-friendly way to let people try your website without pulling from its original source code. In this website, you can chill and listen to the looping music, or choose to click on any of the three buttons to know more about me! 🎶🎵🎧
 
 The theme of the website is inspired by my affinity to blue colours. Mixed with deep-sea aesthetic that caters to marine lovers! 🫧🌊 Though, no animals are included in this one. This website mimics how an ocean park feels like but in your screen! 🪼😁
 
@@ -14,7 +16,7 @@ Added BGM upon start button 🎧\
 Added paragraph-tag buttons for navigation 🧭\
 Added date and time display when the page was accessed 🕧\
 Added bubbles/air pockets for a deep-sea effect! 🫧\
+3/3 pages done! 🌐\
 
 ## Challenges :<
-Trying to add multiple meaningful pages (at least three) 😁\
-Trying to add SFX for the three button pages 🎶\
+All complete!
